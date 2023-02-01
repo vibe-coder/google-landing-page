@@ -45,14 +45,80 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding: 30px 30px;
-  gap: 20px;
+  padding: 20px 20px;
+  gap: 25px;
+  align-items: center;
 }
 
 .page-link{
   text-decoration: none;
   color: white;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: normal;
+}
+
+.page-link:hover{
+  text-decoration: underline;
+}
+
+.my-image{
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.google-apps{
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+
+
+.middle-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.google-image{
+  width: 300px;
+  margin-bottom: 40px;
+}
+
+.search-box{
+  width: 550px;
+  height: 45px;
+  border-radius: 30px;
+  border: none;
+  text-indent: 40px;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.short-cut-wrapper{
+  display: flex;
+  width: 550px;
+  height: 220px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.short-cut{
+  height: 110px;
+  width: 110px;
+  border-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.short-cut:hover{
+  background-color: rgba(255, 255, 255,0.1);
 }
 
