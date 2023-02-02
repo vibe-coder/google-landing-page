@@ -11,7 +11,9 @@ export default function MiddleSection(props){
       <input className="search-box" placeholder="Search Google of type a URL"/>
       <div className="short-cut-wrapper">
         <div className="short-cut">
-          <img className="shortcut-icon" src={TwitterImage} alt="Shortcut Icon"/> 
+          <div className="icon-container">
+            <img className="shortcut-icon" src={TwitterImage} alt="Shortcut Icon"/> 
+          </div>
           <p className="shortcut-name">Twitter</p>
         </div>
         <div className="short-cut">Hey</div>
