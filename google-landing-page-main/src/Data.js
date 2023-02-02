@@ -40,3 +40,5 @@ const Data = [
     name: "Instagram"
   }
 ]
+
+export default Data;

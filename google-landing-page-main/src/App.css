@@ -116,9 +116,20 @@
   justify-content: center;
   align-items: center;
   border-radius: 5px;
+  flex-direction: column;
 }
 
 .short-cut:hover{
   background-color: rgba(255, 255, 255,0.1);
 }
 
+.shortcut-icon{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.shortcut-name{
+  margin: 0;
+}
