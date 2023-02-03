@@ -1,42 +1,42 @@
 const Data = [
   {
-    icon: "hey",
+    icon: "twitter-3.svg",
     name: "Twitter"
   },
   {
-    icon: "hey",
+    icon: "github-icon-1.svg",
     name: "Guthub"
   },
   {
-    icon: "hey",
+    icon: "behance-1.svg",
     name: "Behance"
   },
   {
-    icon: "hey",
+    icon: "unsplash-2.svg",
     name: "Unsplash"
   },
   {
-    icon: "hey",
+    icon: "stack-overflow.svg",
     name: "Stack Overflow"
   },
   {
-    icon: "hey",
+    icon: "netlify.svg",
     name: "Netlify"
   },
   {
-    icon: "hey",
+    icon: "freepik/svg",
     name: "Freepik"
   },
   {
-    icon: "hey",
+    icon: "figma-5.svg",
     name: "Figma"
   },
   {
-    icon: "hey",
+    icon: "medium-4.svg",
     name: "Medium"
   },
   {
-    icon: "hey",
+    icon: "instagram-2016-5.svg",
     name: "Instagram"
   }
 ]
