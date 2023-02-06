@@ -5,7 +5,7 @@ const Data = [
   },
   {
   icon: "github-icon-1.svg",
-  name: "Guthub"
+  name: "Github"
   },
   {
   icon: "behance-1.svg",
@@ -24,7 +24,7 @@ const Data = [
   name: "Netlify"
   },
   {
-  icon: "freepik/svg",
+  icon: "freepik.svg",
   name: "Freepik"
   },
   {

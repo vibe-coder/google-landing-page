@@ -76,6 +76,8 @@
 
 
 .middle-section{
+  height: 500px;
+  padding-bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,13 +85,14 @@
 }
 
 .google-image{
-  width: 300px;
+  width: 272px;
+  height: 92px;
   margin-bottom: 40px;
 }
 
 .search-box{
-  width: 550px;
-  height: 45px;
+  width: 560px;
+  height: 40px;
   border-radius: 30px;
   border: none;
   text-indent: 40px;
@@ -99,13 +102,11 @@
 
 .short-cut-wrapper{
   display: flex;
-  width: 550px;
-  height: 220px;
+  width: 560px;
+  height: 224px;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  background-color: teal;
-  
+  align-items: center; 
 
 }
 
@@ -130,8 +131,8 @@
 }
 
 .icon-container{
-  height: 50px;
-  width: 50px;
+  height: 48px;
+  width: 48px;
   background-color: white;
   border-radius: 30px;
   display: flex;
@@ -142,4 +143,30 @@
 
 .shortcut-name{
   margin: 0;
+  font-size: 14px;
+}
+
+.bottom-section{
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 25px;
+}
+
+.pencil-wrapper{
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pencil-wrapper:hover{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.pencil-icon{
+  height: 12px;
 }
