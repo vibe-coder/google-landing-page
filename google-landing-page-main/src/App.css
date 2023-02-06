@@ -98,6 +98,22 @@
   text-indent: 40px;
   font-size: 15px;
   margin-bottom: 30px;
+  background-color: rgba(255, 255, 255,0.3);
+  color: black;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+}
+
+.search-box::placeholder{
+  color: black;
+}
+
+.search-box:focus{
+  background-color: rgba(255, 255, 255,0.7);
+}
+
+t.extarea:focus, .search-box:focus{
+  outline: none;
 }
 
 .short-cut-wrapper{
@@ -122,7 +138,7 @@
 }
 
 .short-cut:hover{
-  background-color: rgba(255, 255, 255,0.1);
+  background-color: rgba(255, 255, 255,0.3);
 }
 
 .shortcut-icon{

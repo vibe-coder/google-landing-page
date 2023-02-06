@@ -28,7 +28,7 @@ const Data = [
   name: "Freepik"
   },
   {
-  icon: "figma-5.svg",
+  icon: "figma-5.png",
   name: "Figma"
   },
   {
