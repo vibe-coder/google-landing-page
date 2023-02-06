@@ -114,10 +114,10 @@
   width: 110px;
   border-color: red;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  flex-direction: column;
 }
 
 .short-cut:hover{
