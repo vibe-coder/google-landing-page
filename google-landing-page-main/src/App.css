@@ -168,21 +168,53 @@ t.extarea:focus, .search-box:focus{
   align-items: center;
   justify-content: flex-end;
   padding: 0 25px;
+  position: relative;
 }
 
-.pencil-wrapper{
+.pencil-button{
   height: 30px;
   width: 30px;
   border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
-.pencil-wrapper:hover{
+.pencil-button:hover{
   background-color: rgba(255, 255, 255, 0.1);
 }
 
 .pencil-icon{
   height: 12px;
+}
+
+.customize-wrapper{
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 170px;
+  width: 170px;
+  border-radius: 10px;
+  position: absolute;
+  top: -190px;
+  right: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-items{
+  text-align: right;
+}
+
+.list-items > p{
+  color: black;
+  font-size: 17px;
+  background-color: red;
+  height: 30px;
+  width: 120px;
+  padding-right: 15px;
+  border-radius: 15px;
+  
 }
